@@ -1,0 +1,3 @@
+{:id "oss_world_example_java"
+ :init oss_world.oss_world_example_java.Core/entry
+ :java? true}

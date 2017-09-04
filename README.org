@@ -1,0 +1,19 @@
+* OSS World Example Plugin Java
+
+This is an example plugin written in java for the [[https://github.com/oss-world/oss-world][OSS World]].
+
+** Building and Usage
+
+To build and install the plugin to your local maven repository run this command
+in the project directory:
+#+BEGIN_SRC bash
+  mvn install
+#+END_SRC
+
+Then add this entry to the vector of plugins in the "plugins/plugins.edn" file
+of the OSS World data folder:
+#+BEGIN_SRC clojure
+  [oss-world/oss-world-example-java "1.0"]
+#+END_SRC
+
+Start the OSS World and see the example activity running.
